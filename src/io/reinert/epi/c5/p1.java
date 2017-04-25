@@ -4,7 +4,7 @@ public class p1 {
 
     static int WORD_SIZE = 16;
     static int BIT_MASK = 0xFFFF;
-    static byte[] PARITY_LOOKUP_TABLE = new byte[BIT_MASK];
+    static byte[] PARITY_LOOKUP_TABLE = new byte[BIT_MASK + 1];
 
     public static void main(String[] args) {
         for (int x = 0; x < PARITY_LOOKUP_TABLE.length; ++x) {
